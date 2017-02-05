@@ -15,9 +15,9 @@ public class Player {
 	public Board makeMove(Board board) {
 		if( this.name == "Player") {
 			scanner = new Scanner( System.in );
-			System.out.println( "Enter the column of the square you want to choose (1, 2, or 3):" );
-			int column = scanner.nextInt( ) - 1;
 			System.out.println( "Enter the row of the square you want to choose (1, 2, or 3):" );
+			int column = scanner.nextInt( ) - 1;
+			System.out.println( "Enter the column of the square you want to choose (1, 2, or 3):" );
 			int row = scanner.nextInt() - 1;
 			board.squares[column][row] = this.symbol;
 		} else if( this.name == "Computer" ) {
