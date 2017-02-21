@@ -2,9 +2,10 @@ import java.util.Scanner;
 
 public class DistanceTravelled {
 
+	private static Scanner scanner;
+
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner scanner = new Scanner( System.in );
+		scanner = new Scanner( System.in );
 		double speed = -1;
 		double time = 0;
 		double distance;
